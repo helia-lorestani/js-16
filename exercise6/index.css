@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(230, 255, 91);
+}
+.box {
+  width: 700px;
+  height: 600px;
+  border-radius: 30px;
+  background-color: rgb(215, 228, 193);
+  position: relative;
+  top: 30px;
+  left: 70px;
+}
+img {
+  position: absolute;
+  right: -200px;
+  top: -30px;
+  width: 800px;
+  height: 800px;
+}
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: rgb(91, 37, 8);
+  position: relative;
+  bottom: 500px;
+  margin: 5px;
+  left: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 30px;
+  background-color: rgb(91, 37, 8);
+  color: white;
+}
+.icon3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+.icon4 {
+  font-style: italic;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+/* textarea {
+  background-color: rgb(215, 228, 193);
+  border: none;
+  outline: none;
+  resize: none;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+} */
+input {
+  background-color: rgb(215, 228, 193);
+  border: none;
+  width: 90%;
+  outline: none;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
